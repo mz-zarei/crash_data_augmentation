@@ -1,2 +1,8 @@
-# crash_data_augmentation
-mproving statistical crash models with data augmentation using CGAN 
+# CGAN Crash Data Augmentation
+Code for paper: Crash Data Augmentation Using Conditional Generative Adversarial Networks (CGAN) for Improving Safety Performance Functions
+
+
+# Abstract
+In road safety analysis, crash frequency models (also called safety performance functions or SPFs) are developed for specific crash and site types based on historical crash data and site characteristics. When samples sizes are small, it is frequently not possible to develop statistically reliable SPFs. In this paper, we present a crash frequency data augmentation method using Conditional Generative Adversarial Networks (CGANs) to address this problem.  The proposed method is evaluated by comparing the performance of Base-SPF (SPFs developed using original data) and Augmented-SPF (SPFs developed using original data plus synthesized data) in terms of hotspot identification performance (i.e. False Identification (FI) and Poisson Mean Difference (PMD) tests), accuracy of estimated long-term crash means, crash frequencies, and dispersion parameters. The experiments are conducted using both real-world and simulated crash data sets. The results from real data experiments indicate that the crash frequency estimation accuracy for the test data set has improved by up to 25% when using Augmented-SPFs. Also, the standard error associated with SPF coefficients were lower for Augmented-SPFs. In addition, the simulation results show that, the Augmented-SPF can improve Base-SPF in terms of FI (up to 3%), PMD (up to 6%), MAE/RMSE of empirical Bayes estimates (up to 3%), and MAE/RMSE of dispersion parameter estimation (up to 20%).
+
+
